@@ -2,9 +2,9 @@
   /*--font-color: #46494b;*/
   --backrgound : #F5EFE6;
   --board: #E8DFCA;
-  --lines: #AEBDCA;
-  --grey : #7895B2;
-  --blue : #384959;
+  --lines: #54acc9;
+  --grey : #60a1b6;
+  --blue : #224957;
   --black: rgba(0, 0, 0, 0.918);
 }
 
@@ -78,9 +78,9 @@ button {
   background-color: var(--background);
 }
 .status {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
-  
+  margin:30px;
 }
 .container{
   display: flex;
@@ -95,6 +95,9 @@ button {
   height: 400px;
   margin: 16px auto;
   place-items: stretch;
+  background-color: var(--grey);
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .cell{
@@ -107,6 +110,9 @@ button {
   font-size: 3rem;
   text-align: center;
   text-justify: center;
+  margin: 3px;
+  background-color: rgb(249, 248, 244);
+  border-radius: 8px;
 
 }
 
